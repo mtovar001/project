@@ -44,6 +44,7 @@ header {
 }
 
 .move-rock {
+  cursor: pointer;
   background-color: transparent;
   border: 3px solid white;
   width: 200px;
@@ -54,6 +55,7 @@ header {
 }
 
 .move-paper {
+  cursor: pointer;
   background-color: transparent;
   border: 3px solid white;
   width: 200px;
@@ -64,6 +66,7 @@ header {
 }
 
 .move-scissors {
+  cursor: pointer;
   background-color: transparent;
   border: 3px solid white;
   width: 200px;
