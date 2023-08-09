@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylersp.css">
+    <script src="./scriptrsp.js"></script>
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <header id="header">
+        <h2>Rock Paper Scissors Game</h2>
+            </header>
+    <section id="section">
+        <h3>Click on one of them</h3>
+        <div id="container">
+            <button onclick="
+                playGame
+                ('rock');
+                " class="move-rock">
+                <img src="Rock image.png" 
+                class="move-icon">
+            </button>
+            
+            <button onclick="
+                playGame
+                ('paper');
+                " class="move-paper">
+                <img src="Paper image.png" 
+                class="move-icon">
+            </button>
+
+            <button onclick="
+                playGame
+                ('scissors');
+                " class="move-scissors">
+                <img src="Scissors image.png" 
+                class="move-icon">
+            </button> 
+
+            <div class="result">
+                <p class="js-result"></p>
+                <p class="js-moves"></p>
+                <p class="JS-score"></p>
+            </div>   
+            <button onclick="
+                score.wins = 0;
+                score.losses = 0;
+                score.ties = 0;
+                updateScoreElement();
+            " class="resetscore">Reset Score</button>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    background-color: lightslategray;
+    text-align: center;
+    flex-direction:column;
+  }
+
+/*HEADER STYLE*/
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+  }
+
+/*SECTION STYLE*/
+
+#section {
+  padding-top: 70px;
+  padding-bottom: 300px;
+  color: white;
+    
+}
+
+.result {
+  color:azure;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 50px;
+}
+
+.resetscore {
+  padding: 10px
+}
+
+/*IMAGES*/
+.move-icon {
+  height: 120px;
+  
+}
+
+.move-rock {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  
+ 
+}
+
+.move-paper {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  
+   
+}
+
+.move-scissors {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+   
+}
+
+
+/*FOOTER STYLE*/
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: right;
+    color: white;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: -7px;
+  }
+
+/*RESPONSIVE STYLE*/
+@media (max-width: 600px) {
+    header, section {
+      width: 100%;
+      height: auto;
+    }
+  }
